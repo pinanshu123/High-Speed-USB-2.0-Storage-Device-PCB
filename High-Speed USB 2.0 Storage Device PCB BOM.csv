@@ -1,0 +1,58 @@
+﻿Designator*,Quantity*,Manufacturer Part Number*,Manufacturer,Package/Footprint,Description,Procurement Type,Customer Note
+"C101,C102",2,GRM1885C2A222JA01D,Murata Electronics,0603 (1608 Metric),2.2nF 100V,,2.2nF ±5% 100V C0G/NP0
+"C201,C303,C403,C404,C602,C612",6,GRM155R61A105KE15D,Murata Electronics,0402 (1005 Metric),1uF 10V,,1uF ±10% 10V X5R
+"C301,C405,C406,C407,C408,C601,C608,C609,C610,C611",10,GRM155R71A104KA01D,Murata Electronics,0402 (1005 Metric),0.1uF 10V,,0.1uF ±10% 10V X7R
+C302,1,GRM21BR61A226ME44L,Murata Electronics,0805 (2012 Metric),22uF 10V,,22uF ±20% 10V X5R
+"C304,C305",2,GRM21BR61A226ME44L,Murata Electronics,0805 (2012 Metric),22uF 10V,,22uF ±20% 10V X5R
+C401,1,GRM155R71A104KA01D,Murata Electronics,0402 (1005 Metric),0.1uF/ 10V,,0.1uF ±10% 10V X7R
+C402,1,GRM155R71A104KA01D,Murata Electronics,0402 (1005 Metric),100nF 10V,,100nF = 0.1uF ±10% 10V X7R
+C409,1,CC0603KRX5R6BB475,YAGEO,0603 (1608 Metric),4.7uF 10V,,4.7uF ±10% 10V X5R
+C501,1,GRM1555C1H150JA01D,Murata Electronics,0402 (1005 Metric),15p/ 10V,,15pF ±5% 50V C0G/NP0
+C502,1,GRM1555C1H150JA01D,Murata Electronics,0402 (1005 Metric),15p 10V,,15pF ±5% 50V C0G/NP0
+"C503,C504",2,GRM1555C1H150JA01D,Murata Electronics,0402 (1005 Metric),15pF 10V,,15pF ±5% 50V C0G/NP0
+"C505,C507,C509",3,GRM155R61A105KE15D,Murata Electronics,0402 (1005 Metric),1u / 10V,,1uF ±10% 10V X5R
+"C506,C508,C510,C511,C512,C513",6,GRM155R71H102KA01D,Murata Electronics,0402 (1005 Metric),1n / 10V,,1nF ±10% 50V X7R
+C514,1,CC0805KRX5R6BB106,YAGEO,0805 (2012 Metric),10u / 10V,,10uF ±10% 10V X5R
+C515,1,GRM155R71A104KA01D,Murata Electronics,0402 (1005 Metric),100n,,100nF 10V X7R selected
+"C603,C604,C605,C606,C607,C613",6,GRM155R61A225KE95D,Murata Electronics,0402 (1005 Metric),2.2uF 10V,,2.2uF ±10% 10V X5R
+"C701,C702",2,GRM155R61A105KE15D,Murata Electronics,0402 (1005 Metric),1uF/10V,,1uF ±10% 10V X5R
+D301,1,SMF5V0A-E3-08,Vishay,SMF (DO-219AB),SMF5V0A,,"5V TVS diode, full orderable MPN"
+"D302,D401",2,LTST-C190KRKT,Lite-On,0603 (1608 Metric),LED RED,,"Red LED, matches schematic value LED RED"
+"D801,D802,D803",3,LTST-C190KGKT,Lite-On,0603 (1608 Metric),LED,,VERIFY | Original BOM says only LED; selected GREEN 0603 LED as an explicit assumption. Change MPN if a different color is intended.
+"J101,J102",2,U262-161N-4BVC11,XKB Connection,"USB-C receptacle, 16P, right-angle",USB_C_Receptacle_USB2.0_16P,,Corrected actual manufacturer MPN; KiCad footprint name uses U262-16XN-4BVC11.
+J501,1,61300211121,Würth Elektronik,"THT 1x2, 2.54mm vertical",Conn_01x02,,Concrete part selected for generic 2-pin 2.54mm header.
+J801,1,SM12B-SRSS-TB(LF)(SN),JST,"SH 1x12, 1.00mm, right-angle SMD",Conn_01x12,,Full orderable JST MPN.
+J802,1,SM03B-GHS-TB(LF)(SN),JST,"GH 1x3, 1.25mm, right-angle SMD",Conn_01x03,,Full orderable JST MPN.
+L301,1,WPN4020H2R2MT,Sunlord,SMD 4.0x4.0x2.0mm,"2.2uH/4,3A",,VERIFY | 2.2uH / 4.3A exact electrical match. Your KiCad footprint is named SWPA4020S; verify pad geometry against WPN4020H datasheet before fabrication.
+"R101,R102",2,RC0100FR-071ML,YAGEO,01005 (0402 Metric),1M/1%,,"1MΩ ±1%, 1/32W"
+"R103,R104",2,L4CL1206LR002FNR,Littelfuse,"1206 (3216 Metric), 4-terminal",2m/1%,,"VERIFY | 2mΩ ±1% current-sense resistor. Original footprint is Ohmite LVK12, but LVK12 starts at 10mΩ; verify/change PCB footprint to the Littelfuse 4-terminal land pattern before ordering."
+"R105,R106",2,RC0100FR-075K49L,YAGEO,01005 (0402 Metric),5.5K/1%,,VERIFY | Selected 5.49kΩ ±1% E96 value as the practical exact part for schematic value 5.5K/1%.
+"R107,R108",2,RC0100FR-072ML,YAGEO,01005 (0402 Metric),2M/1%,,"2MΩ ±1%, 1/32W"
+"R201,R203,R205,R301",4,RC0100FR-07100KL,YAGEO,01005 (0402 Metric),100K/1%,,"100kΩ ±1%, 1/32W"
+"R202,R204",2,RC0100FR-07150KL,YAGEO,01005 (0402 Metric),150K/1%,,"150kΩ ±1%, 1/32W"
+R302,1,RC0100FR-0722K1L,YAGEO,01005 (0402 Metric),22.1K/1%,,"22.1kΩ ±1%, 1/32W"
+"R303,R503",2,RC0100FR-071KL,YAGEO,01005 (0402 Metric),1K/1%,,"1kΩ ±1%, 1/32W"
+R401,1,RC0100FR-071ML,YAGEO,01005 (0402 Metric),1M 1%,,"1MΩ ±1%, 1/32W"
+R402,1,RC0100FR-0712KL,YAGEO,01005 (0402 Metric),12K 1%,,"12kΩ ±1%, 1/32W"
+R403,1,RC0100FR-07330RL,YAGEO,01005 (0402 Metric),330 1%,,"330Ω ±1%, 1/32W"
+"R404,R405,R406",3,RC0100FR-0710KL,YAGEO,01005 (0402 Metric),10K 1%,,"10kΩ ±1%, 1/32W"
+"R501,R502",2,RC0100FR-0727R4L,YAGEO,01005 (0402 Metric),27.4/1%,,"27.4Ω ±1%, 1/32W"
+R504,1,RC0402FR-071KL,YAGEO,0402 (1005 Metric),1k/1%,,"1kΩ ±1%, 1/16W"
+"R506,R507",2,RC0100FR-074K7L,YAGEO,01005 (0402 Metric),4.7k/1%,,"4.7kΩ ±1%, 1/32W"
+"R601,R602,R603,R604,R605,R606,R607,R608",8,RC0100FR-0747KL,YAGEO,01005 (0402 Metric),47K/1%,,"47kΩ ±1%, 1/32W"
+"R609,R611",2,RC0100FR-0710KL,YAGEO,01005 (0402 Metric),10K/1%,,"10kΩ ±1%, 1/32W"
+R610,1,RC0100FR-0722RL,YAGEO,01005 (0402 Metric),22/1%,,"22Ω ±1%, 1/32W"
+"R801,R802,R803",3,RC0402FR-071KL,YAGEO,0402 (1005 Metric),1K,,"1kΩ ±1%, 1/16W"
+"U201,U202",2,LM66100DCKR,Texas Instruments,SC70-6 / SOT-363,LM66100DCK,,Full tape-and-reel orderable MPN.
+U301,1,SY8253ADC,Silergy,TSOT-23-6,SY8253-ADC,,VERIFY | Exact device selected from value SY8253-ADC. Note: the Datasheet URL in your KiCad BOM points to a TI LM2734 and is wrong; replace it with the Silergy datasheet.
+U401,1,AT24CS04-STUM-T,Microchip Technology,SOT-23-5,AT24CS04-STUM,,OK / MANUAL SOURCE | Valid full orderable MPN. NextPCB auto-matcher previously did not find it; keep exact MPN for manual sourcing.
+U402,1,USB2244-AEZG-06,Microchip Technology,"QFN-36, 6x6mm",USB2244-AEZG-06,,OK / MANUAL SOURCE | Valid commercial-temperature MPN. NextPCB auto-matcher previously did not find it; do not invent a suffix.
+"U403,U502",2,D3V3XA4B10LP-7,Diodes Incorporated,U-DFN2510-10 (1.0x2.5mm),D3V3XA4B10LP,,Full tape-and-reel MPN.
+U501,1,RP2040,Raspberry Pi,"QFN-56, 7x7mm",RP2040,,RP2040 MCU.
+U503,1,W25Q128JVSIQ,Winbond,"SOIC-8, 208mil",W25Q128JVS,,Full 12-character orderable MPN corresponding to W25Q128JVS in your BOM.
+U601,1,MTFC64GAPALBH-IT,Micron Technology,"BGA-153, 11.5x13mm",MTFC64GAPALBH-IT,,"OBSOLETE | Exact original MPN, but Micron lists this eMMC as obsolete. Use exact part for prototype only if sourcing is acceptable; redesign to a current compatible eMMC for production."
+U701,1,TMP119AIYBGR,Texas Instruments,DSBGA-6,TMP119AIYBGR,,Exact original MPN.
+"U702,U704",2,INA226AIDGSR,Texas Instruments,"VSSOP-10, 3x3mm, 0.5mm pitch",INA226,,Selected exact VSSOP-10 orderable version matching footprint.
+U703,1,ER-OLEDM0.91-1B-I2C,EastRising / BuyDisplay,"0.91in 128x32 OLED module, 4-pin I2C",ER_OLEDM0.91_1x-I2C,,VERIFY | Original value omitted the display color. Selected BLUE (-1B-) variant as an assumption; change to -1W- if white is intended.
+Y401,1,SG-210STF 24.0000ML0,Epson,2.5x2.0mm 4-SMD oscillator,SG-210STF,,VERIFY | 24MHz selected because Y401 is the USB2244 reference oscillator and USB2244 uses a 24MHz reference. Confirm schematic net/function before ordering.
+Y501,1,ABM8-272-T3,Abracon,3.2x2.5mm 4-SMD crystal,Crystal_GND24,,VERIFY | 12MHz crystal selected for RP2040; your 15pF load-cap network is consistent with ~10pF crystal load. Confirm schematic before ordering.
